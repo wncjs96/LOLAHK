@@ -259,25 +259,6 @@ if ErrorLevel = 1
 msgbox, error detected
 
 
-;f8::
-;chk:=1
-;While(chk=1) {
-;	
-	;ControlSend, Edit1, Hi, ahk_class Notepad ahk_exe notepad.exe
-	;ControlClick, x234 y280, ARK: Survival Evolved,,Left,, x234 280
-	;ControlClick, x234 y280, ARK: Survival Evolved,,Left,, x234 280
-	;MouseGetPos, LocX, LocY
-;	MouseMove, 82, 189
-;	MouseClick, Left
-;	ControlSend, ,  T, ahk_class UnrealWindow ahk_exe ShooterGame.exe
-;	;MouseMove, %LocX%, %LocY%
-;	MouseMove, %LocX%, %LocY%
-;	MouseClick, Left
-;	sleep, 2000
-;	
-;}
-;return
-
 ;esc::
 ;exitapp
 #if
